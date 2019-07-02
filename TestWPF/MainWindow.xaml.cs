@@ -58,7 +58,7 @@ namespace TestWPF
                     break;
                 case 4:
                     GridPrincipal.Children.Clear();
-                    GridPrincipal.Children.Add(new UserControlDrinks());
+                    GridPrincipal.Children.Add(new UserControlDrinksAlternative());
                     break;
                 //case 5:
                 //    GridPrincipal.Children.Clear();

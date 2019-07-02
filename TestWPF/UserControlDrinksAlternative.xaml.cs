@@ -22,7 +22,7 @@ namespace TestWPF
     {
         public UserControlDrinksAlternative()
         {
-            //InitializeComponent();
+            InitializeComponent();
         }
     }
 }

@@ -8,15 +8,15 @@
              mc:Ignorable="d" 
              d:DesignHeight="545" d:DesignWidth="774">
     <Grid>
-        <!--<materialDesign:TransitioningContent x:Name="TransitioningContentSlide" OpeningEffect="{materialDesign:TransitionEffect SlideInFromLeft, Duration=0:0:0.6}">
+        <materialDesign:TransitioningContent x:Name="TransitioningContentSlide" OpeningEffect="{materialDesign:TransitionEffect SlideInFromLeft, Duration=0:0:0.6}">
             <Grid>
                 <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="*"/>
-                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="387"/>
+                    <ColumnDefinition Width="387"/>
                 </Grid.ColumnDefinitions>
                 <Grid.RowDefinitions>
-                    <RowDefinition Height="*"/>
-                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="272.5"/>
+                    <RowDefinition Height="272.5"/>
                 </Grid.RowDefinitions>
                 <StackPanel Grid.Column="0" Grid.Row="0">
                     <StackPanel.Background>
@@ -24,11 +24,44 @@
                     </StackPanel.Background>
 
                     <TextBlock Margin="220 40 0 0" Height="40" Width="100" Text="  25$" FontSize="22" FontFamily="MV Boli" FontWeight="Bold" Foreground="White" HorizontalAlignment="Center"/>
-                    <ComboBox Margin="220 10 0 0" VerticalAlignment="Stretch" Height="30" Width="100"/>
+                    <!--<TextBlock Margin="220 0 0 0" Height="40" Width="100" Text="  240ml" FontSize="20" FontFamily="Open Sans" FontWeight="Bold" Foreground="White" HorizontalAlignment="Center" FontStyle="Italic"/>-->
+                    <!--<ComboBox Margin="220 10 0 0" VerticalAlignment="Stretch" Height="30" Width="100">
+                        <ComboBoxItem IsSelected="True" Opacity="0" IsHitTestVisible="True" Background="AliceBlue">
+                            <StackPanel Width="100" Height="40" Background="Red">
+                                <TextBlock FontSize="22" FontFamily="MV Boli" FontWeight="Bold" Foreground="White" HorizontalAlignment="Center">150</TextBlock>
+                            </StackPanel>
+                        </ComboBoxItem>
+                    </ComboBox>-->
+
                     <Button Margin="220 10 0 0" Width="100" Height="40" VerticalContentAlignment="Bottom" Content="Add" FontSize="22" FontFamily="MV Boli" BorderBrush="#FFE71D2B" Background="#FFE71D2B"/>
 
                 </StackPanel>
+                <StackPanel Grid.Column="1" Grid.Row="0">
+                    <StackPanel.Background>
+                        <ImageBrush ImageSource="Assets/12131927pepsi.png"/>
+                    </StackPanel.Background>
+
+                    <TextBlock Margin="220 40 0 0" Height="40" Width="100" Text="  25$" FontSize="22" FontFamily="MV Boli" FontWeight="Bold" Foreground="White" HorizontalAlignment="Center"/>
+                    <Button Margin="220 10 0 0" Width="100" Height="40" VerticalContentAlignment="Bottom" Content="Add" FontSize="22" FontFamily="MV Boli" BorderBrush="#FFE71D2B" Background="#FFE71D2B" IsHitTestVisible="False" Visibility="Hidden"/>
+                </StackPanel>
+                
+                <StackPanel Grid.Column="1" Grid.Row="1">
+                    <StackPanel.Background>
+                        <ImageBrush ImageSource="Assets/12131927pepsi.png"/>
+                    </StackPanel.Background>
+
+                    <TextBlock Margin="220 40 0 0" Height="40" Width="100" Text="  25$" FontSize="22" FontFamily="MV Boli" FontWeight="Bold" Foreground="White" HorizontalAlignment="Center"/>
+                    <Button Margin="220 10 0 0" Width="100" Height="40" VerticalContentAlignment="Bottom" Content="Add" FontSize="22" FontFamily="MV Boli" BorderBrush="#FFE71D2B" Background="#FFE71D2B" IsHitTestVisible="False" Visibility="Hidden"/>
+                </StackPanel>
+                <StackPanel Grid.Column="0" Grid.Row="1">
+                    <StackPanel.Background>
+                        <ImageBrush ImageSource="Assets/12131927pepsi.png"/>
+                    </StackPanel.Background>
+
+                    <TextBlock Margin="220 40 0 0" Height="40" Width="100" Text="  25$" FontSize="22" FontFamily="MV Boli" FontWeight="Bold" Foreground="White" HorizontalAlignment="Center"/>
+                    <Button Margin="220 10 0 0" Width="100" Height="40" VerticalContentAlignment="Bottom" Content="Add" FontSize="22" FontFamily="MV Boli" BorderBrush="#FFE71D2B" Background="#FFE71D2B" IsHitTestVisible="False" Visibility="Hidden"/>
+                </StackPanel>
             </Grid>
-        </materialDesign:TransitioningContent>-->
+        </materialDesign:TransitioningContent>
     </Grid>
 </UserControl>
